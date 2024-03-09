@@ -8,28 +8,28 @@ Make sure you have `sudo` or administrative privileges on your Linux system to r
 
 ## Usage Instructions
 
-1. Clone the repository or download the `install_java.sh` script:
+1. Clone the repository or download the `001_Install_java-11.0-linux-all.sh` script:
 
     ```bash
-    git clone https://github.com/your-username/install-auto-java.git
+    git clone https://github.com/NANDILLONMaxence/Install_auto_Java.git
     ```
 
 2. Navigate to the script directory:
 
     ```bash
-    cd install-auto-java
+    cd Install_auto_Java
     ```
 
 3. Give execute permissions to the script:
 
     ```bash
-    chmod +x install_java.sh
+    chmod +x 001_Install_java-11.0-linux-all.sh
     ```
 
 4. Run the script:
 
     ```bash
-    ./install_java.sh
+    ./001_Install_java-11.0-linux-all.sh
     ```
 
 5. Follow the on-screen instructions to choose to install Java JRE (option 1) or Java JDK (option 2).
