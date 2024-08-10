@@ -36,12 +36,12 @@ if ! command -v java &> /dev/null; then
     if [ "$java_option" == "1" ]; then
         sudo apt install -y default-jre
         info_message "Java jre OK."
-        javac -version
+        java -version
     # Install Java JDK
     elif [ "$java_option" == "2" ]; then
         sudo apt install -y default-jdk
         info_message "Java jdk OK."
-        javac -version
+        java -version
     else
         error_message "Invalid choice. Exiting the script."
         exit 1
