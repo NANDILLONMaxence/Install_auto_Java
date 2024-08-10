@@ -1,6 +1,6 @@
 # Install Auto Java on All Linux
 
-This automated script allows you to easily install Java JRE or JDK on any Linux system. It uses the default OpenJDK 11 packages to streamline the installation process.
+This automated script allows you to easily install Java JRE or JDK on any Linux system. It uses the default OpenJDK packages to streamline the installation process.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Make sure you have `sudo` or administrative privileges on your Linux system to r
 
 ## Usage Instructions
 
-1. Clone the repository or download the `001_Install_java-11.0-linux-all.sh` script:
+1. Clone the repository or download the `01_Install_Default-Java.sh` script:
 
     ```bash
     git clone https://github.com/NANDILLONMaxence/Install_auto_Java.git
@@ -23,13 +23,13 @@ Make sure you have `sudo` or administrative privileges on your Linux system to r
 3. Give execute permissions to the script:
 
     ```bash
-    chmod +x 001_Install_java-11.0-linux-all.sh
+    chmod +x 01_Install_Default-Java.sh
     ```
 
 4. Run the script:
 
     ```bash
-    ./001_Install_java-11.0-linux-all.sh
+    ./01_Install_Default-Java.sh
     ```
 
 5. Follow the on-screen instructions to choose to install Java JRE (option 1) or Java JDK (option 2).
@@ -37,5 +37,7 @@ Make sure you have `sudo` or administrative privileges on your Linux system to r
 ## Notes
 
 - If Java is already installed on your system, the script will display the current version.
-- The script uses the default OpenJDK 11 packages for Java installation.
+- The script uses the default OpenJDK packages for Java installation.
+- Command purge : sudo apt-get purge openjdk* icedtea-* openjdk-*
+
 ---- 
